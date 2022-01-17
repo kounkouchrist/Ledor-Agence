@@ -1,0 +1,76 @@
+@media (max-width:500px){
+    .title{
+        text-align: center;
+    }
+    header{
+        flex-direction: column;
+    }
+
+    header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul li{
+        margin-top: 1.5rem;
+        padding: 0.5rem;
+        border-bottom: 1px dotted #ddd;
+    }
+
+    .vp-content h1{
+        padding-top: 1rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .vp-content p{
+        padding-top: 1rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .offer{
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+
+    .offer-list{
+        flex-direction: column;
+    }
+
+    .who{
+        flex-direction: column-reverse;
+    }
+    .who-content-img{
+        min-height: 300px;
+    }
+
+    .who-content-text{
+        padding: 4rem 2rem;
+    }
+
+    .testimonials-elem{
+        flex-direction: column-reverse;
+    }
+
+    .testimonials-elem-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .testimonials-elem-profil{
+        text-align: center;
+    }
+
+    .testimonials-elem-profil img{
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .contact{
+        padding: 5rem 1rem;
+    }
+
+    .contact form button{
+        margin: 3rem auto 0 auto;
+    }
+}
